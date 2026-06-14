@@ -1,0 +1,3 @@
+.\DHCP-Search.ps1 -IPAddress "10.0.0.5" | Format-Table -AutoSize
+# O también:
+.\DHCP-Search.ps1 -IPAddress "10.0.0.5" | Out-GridView
